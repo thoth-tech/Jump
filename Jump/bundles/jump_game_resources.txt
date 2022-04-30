@@ -1,0 +1,13 @@
+// Player
+BITMAP,hero0,hero0.png
+BITMAP,hero1,hero1.png
+BITMAP,hero2,hero2.png
+
+// Background
+BITMAP,background,jump_background1.png
+
+// Platform
+BITMAP,platform,platform0.png
+
+// Game Over
+BITMAP,gameover,gameover.png
