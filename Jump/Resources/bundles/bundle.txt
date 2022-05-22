@@ -1,0 +1,26 @@
+//How to load sprite sheets
+//BITMAP,NAME,FILENAME,CELL_WIDTH,CELL_HEIGHT, NUM_COL, NUM_ROW, COUNT
+//
+//BITMAP = type
+//NAME = Name you will use in the program
+//FILENAME = the filename of the image in Rousources/images
+//CELL_WIDTH = the width of each sprite cell
+//CELL_HEIGHT = the height of each sprite cell
+//NUM_COL = the number of cells per row of the sprite sheet
+//NUM_ROW = the number of rows the sprite sheet has
+//COUNT = the total number of cells (NUM_COL * NUM_ROW)
+
+//Loads the default hero with the identifier "Hero"
+BITMAP,Hero,Hero.png,45,100,4,2,8
+
+//Loads the alternative hero sprite
+BITMAP,AltHero,HeroAlt.png,45,100,4,2,8
+
+//How to load full size bitmaps
+//BITMAP, NAME, FILENAME
+//This will load the entire background image
+BITMAP,background,background.png
+
+//Load the animation scripts to the program
+//ANIM,NAME,FILENAME
+ANIM,HeroAnim,hero_animation.txt

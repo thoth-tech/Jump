@@ -1,0 +1,30 @@
+SplashKit Animation
+//f = the animation movements
+//ID,CELL,DUR,NEXT
+//ID = unique identifier for the animation frame
+//CELL = the cell in the spritesheet to load
+//DUR = The duration of the loaded frame
+//Next = the next identifier (ID) to play (can be blank if animation is finished)
+//First cell in spritesheet is 0
+
+//Idle Right
+f:001,1,1,
+
+//Walk Right
+f:[002-004],[0-2],5,005
+f:005,1,5,
+
+//Idle Left
+f:006,5,1,
+
+//Walk Left
+f:[007-009],[4-6],5,010
+f:010,5,5,
+
+//Right Animation Identifiers
+i:IdleRight,001
+i:WalkRight,002
+
+//Left Animation Identifiers
+i:IdleLeft,006
+i:WalkLeft,007
